@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground2"
+    android:scaleType="centerCrop"
+    tools:context=".puanTablosu">
+
+    <TextView
+        android:id="@+id/tablo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text="PUAN TABLOSU"
+        android:textColor="@color/white"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/puan0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tablo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/puan1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puan0"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/puan2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puan1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/puan3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puan2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/puan4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puan3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:textSize="35sp" />
+    <TextView
+        android:id="@+id/puan5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/puan4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="50dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="@color/white"
+        android:background="#000000"
+        android:textSize="35sp" />
+
+    <ImageView
+        android:id="@+id/trash"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/trash" />
+
+
+</RelativeLayout>
